@@ -8,5 +8,16 @@ namespace Moteur
 {
     class FileCarteAJouer
     {
+        List<Carte> FileCartes = new List<Carte>();
+
+        public FileCarteAJouer()
+        {
+            
+        }
+        
+        public void Supprimer(string groupe)
+        {
+            
+        }
     }
 }
