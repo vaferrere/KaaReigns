@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:KaaReigns"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <StackPanel Orientation="Vertical" Background="White" MouseLeftButtonUp="UIElement_OnMouseLeftButtonUp">
+        <TextBlock Name="Texte" MouseLeave="UIElement_OnMouseLeave" Width="200" Height="80" TextAlignment="Center" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"></TextBlock>
+        <Rectangle Name="Carte" MouseLeave="UIElement_OnMouseLeave" Width="100" Height="150" Fill="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"  ></Rectangle>
+        <Rectangle Width="200" MouseLeave="UIElement_OnMouseLeave" Height="1000" Fill="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" ></Rectangle>
+    </StackPanel>
+
 </Window>

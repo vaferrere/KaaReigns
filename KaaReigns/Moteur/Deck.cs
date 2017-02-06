@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Moteur
 {
-    public class Class1
+    class Deck
     {
     }
 }
